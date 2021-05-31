@@ -1,0 +1,82 @@
+:w! color config
+! Black
+*.color0:      #000000
+*.color8:      #323232
+!
+! Red
+*.color1:      #da4939
+*.color9:      #ff7b6b
+!
+! Green
+*.color2:      #519f50
+*.color10:     #83d182
+!
+! Yellow
+*.color3:      #ffd24a
+*.color11:     #ffff7c
+!
+! Blue
+*.color4:      #6d9cbe
+*.color12:     #9fcef0
+!
+! Magenta
+*.color5:      #d0d0ff
+*.color13:     #ffffff
+!
+! Cyan
+*.color6:      #6e9cbe
+*.color14:     #a0cef0
+!
+! White
+*.color7:      #ffffff
+*.color15:     #ffffff
+!
+! Bold, Italic, Underline
+*.colorBD:     #e6e1dc
+!*.colorIT:
+!*.colorUL:
+
+
+! xft 
+   Xft.dpi: 133
+! rxvt_unicode
+   URxvt.internalBorder: 20
+   
+   URxvt.scrollBar: false	
+   URxvt.letterSpace:	-2
+
+   URxvt.cursorColor:	#ffd24a
+   URxvt.cursorBlink:	true
+
+   urxvt.font:xft:monospace:bold:size=10
+!   urxvt.font:xft:monospace:size=10
+!   urxvt.boldfont: xft:monospace:bold:size=10
+!   URxvt.italicFont: xft:Monospace:Italic:size=10
+
+   URxvt.transparent: false
+   URxvt*depth: 32
+   URxvt*background: rgba:0000/0000/0200/c900
+   URxvt.foreground: #f6f6ee
+   URxvt.throughColor: #8080f0
+   URxvt.highlightColor: #343434
+   
+   URxvt.saveLines: 1000000
+
+   URxvt*fading: 0
+   xterm*VT100.geometry: 90x30
+
+! rofi   
+   rofi.color-window: argb:FF121212, #eeeeee, #eeeeee
+   rofi.color-normal: argb:FF121212, #eeeeee, argb:FF121212, #eeeeee, #121212
+   rofi.color-urgent: argb:FF121212, #eeeeee, argb:FF121212, #121212, #121212
+   rofi.color-active: argb:FF121212, #eeeeee, argb:FF121212, #eeeeee, #eeeeee
+   rofi.width: 50
+   rofi.lines: 10
+   rofi.columns: 2
+   rofi.font: xft:Monospace 14
+   rofi.bw: 1
+   rofi.padding: 100
+   rofi.eh: 1
+   rofi.hide-scrollbar: true
+
+
