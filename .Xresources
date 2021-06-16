@@ -66,16 +66,17 @@
    xterm*VT100.geometry: 90x30
 
 ! rofi   
-   rofi.color-window: argb:FF121212, #eeeeee, #eeeeee
-   rofi.color-normal: argb:FF121212, #eeeeee, argb:FF121212, #eeeeee, #121212
-   rofi.color-urgent: argb:FF121212, #eeeeee, argb:FF121212, #121212, #121212
-   rofi.color-active: argb:FF121212, #eeeeee, argb:FF121212, #eeeeee, #eeeeee
-   rofi.width: 50
-   rofi.lines: 10
-   rofi.columns: 2
+   rofi.color-window: argb:99111111, #ff111111, #99111111
+   rofi.color-normal: argb:99111111, #eeeeee, argb:99121212, #eeeeee, #121212
+   rofi.color-urgent: argb:99121212, #eeeeee, argb:99121212, #121212, #121212
+   rofi.color-active: argb:99111111, #eeeeee, argb:99121212, #eeeeee, #eeeeee
+   rofi.width: 40 
+   rofi.lines: 20
+   rofi.columns: 1 
+   rofi.fullscreen: false
    rofi.font: xft:Monospace 14
-   rofi.bw: 1
-   rofi.padding: 100
+   rofi.bw: 0
+   rofi.padding: 70
    rofi.eh: 1
    rofi.hide-scrollbar: true
 
